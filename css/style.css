@@ -1,0 +1,74 @@
+.blue {
+    background-color: #2196f3!important;
+}
+.footer-copyright{
+	background-color: rgba(0,0,0,.2);
+}
+footer, footer a{
+	width: 100%;
+	color: white;
+}
+body .row{
+	margin: 0px !important;
+}
+.left{
+	float:left;
+}
+h2{
+	text-align: center;
+}
+.right{
+	float: right;
+}
+.over{
+	overflow: auto;
+	overflow-y: hidden;
+}
+.phone{
+	margin-right: 40px;
+}
+.phone img{
+	width: 25px;
+}
+._50{
+	width: 50%;
+}
+.t_center{
+	text-align: center;
+}
+.t_right{
+	text-align: right;
+}
+.mar0{
+	margin: 0 auto;
+}
+._80{
+	width:80%;
+}
+._40{
+	width:40%;
+}
+._60{
+	width:60%;
+}
+.map{
+	height: 300px;
+}
+._100{
+	width: 100%;
+}
+._70{
+	width: 70%;
+}
+._30{
+	width: 30%;
+}
+.none{
+	display: none;
+}
+.white{
+	color: white;
+}
+.query_form{
+	width: 300px;
+}
