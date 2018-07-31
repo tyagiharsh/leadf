@@ -13,7 +13,7 @@ function navHandler(ele){
 	ele.addClass('active');
 	$('.page').each(function(){
 		if($(this).data('page') == dataToggle){
-			$('.page:not(.none)').addClass('none');
+			$('.page').addClass('none');
 			$(this).removeClass('none');
 		}
 	});
