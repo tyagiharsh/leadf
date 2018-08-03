@@ -3,14 +3,16 @@ jQuery(function($) {
 		limit: 5,
 		effect: 'slide'
 	})
-	$('.pageTitle').click(function(){
+	$('.pageLink').click(function(){
 		navHandler($(this));
 	});
 })
 function navHandler(ele){
 	var dataToggle = ele.data('page');
-	$('.nav-item.active').removeClass('active');
-	ele.addClass('active');
+	if(ele.hasClass('nav-item')){
+		$('.nav-item.active').removeClass('active');
+		ele.addClass('active');
+	}
 	$('.page').each(function(){
 		if($(this).data('page') == dataToggle){
 			$('.page').addClass('none');
